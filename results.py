@@ -5,11 +5,11 @@ import requests,json,csv
 
 d = 1
 e = 1
-a1 = '0103' #college code
-a2 = 'IT'   #branch code
-a3 = '191'  #year
+a1 = input(str('enter college code: ')) #college code
+a2 = input(str('branch code: '))   #branch code
+a3 = '191' #input(str('enter year: '))  #year
 a4 = '1'    #result for semester
-a5 = 80    #last roll no
+a5 = input(int('enter last roll no'))    #last roll no
 dataFile = a1+a2+a3+'.csv'
 
 try:
