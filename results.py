@@ -1,6 +1,3 @@
-#written and designed by devicoven & er4Zer
-#All rights reserved
-
 import requests,json,csv
 
 d = 1
